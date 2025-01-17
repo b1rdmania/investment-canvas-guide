@@ -114,6 +114,34 @@ const Pages = [
     </div>
   </div>,
 
+  // New Page: Advisory Team
+  <div key="advisory-team" className="space-y-8">
+    <h2 className="text-3xl font-bold text-brand-dark">Advisory Team</h2>
+    <div className="grid grid-cols-3 gap-8">
+      <div className="space-y-4">
+        <h3 className="text-xl font-semibold text-brand-dark">Advisory Position</h3>
+        <ul className="space-y-2 text-brand-dark">
+          <li>• Position details to be added</li>
+          <li>• Experience highlights</li>
+        </ul>
+      </div>
+      <div className="space-y-4">
+        <h3 className="text-xl font-semibold text-brand-dark">Advisory Position</h3>
+        <ul className="space-y-2 text-brand-dark">
+          <li>• Position details to be added</li>
+          <li>• Experience highlights</li>
+        </ul>
+      </div>
+      <div className="space-y-4">
+        <h3 className="text-xl font-semibold text-brand-dark">Advisory Position</h3>
+        <ul className="space-y-2 text-brand-dark">
+          <li>• Position details to be added</li>
+          <li>• Experience highlights</li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+
   // Page 8: Fund Structure
   <div key="8" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Fund Structure</h2>
@@ -163,6 +191,50 @@ const Pages = [
             </tr>
           </tbody>
         </table>
+      </div>
+    </div>
+  </div>,
+
+  // Page 9: Partners
+  <div key="partners" className="space-y-8">
+    <h2 className="text-3xl font-bold text-brand-dark">Partners</h2>
+    <div className="flex-1 space-y-12">
+      <div className="grid grid-cols-3 gap-8">
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold text-brand-dark">Partner Position</h3>
+          <ul className="space-y-2 text-brand-dark">
+            <li>• Partner details to be added</li>
+            <li>• Partnership scope</li>
+          </ul>
+        </div>
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold text-brand-dark">Partner Position</h3>
+          <ul className="space-y-2 text-brand-dark">
+            <li>• Partner details to be added</li>
+            <li>• Partnership scope</li>
+          </ul>
+        </div>
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold text-brand-dark">Partner Position</h3>
+          <ul className="space-y-2 text-brand-dark">
+            <li>• Partner details to be added</li>
+            <li>• Partnership scope</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div className="pt-12 border-t border-brand-cream">
+        <div className="flex justify-center space-x-8">
+          <a href="https://acidic.com" className="text-brand-coral hover:text-brand-coral-light transition-colors">
+            Website
+          </a>
+          <a href="https://twitter.com/acidic" className="text-brand-coral hover:text-brand-coral-light transition-colors">
+            Twitter
+          </a>
+          <a href="mailto:contact@acidic.com" className="text-brand-coral hover:text-brand-coral-light transition-colors">
+            Contact Us
+          </a>
+        </div>
       </div>
     </div>
   </div>

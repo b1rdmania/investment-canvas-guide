@@ -84,6 +84,7 @@ const DesignGuidelines = ({ currentPage }: DesignGuidelinesProps) => {
             </ul>
           </>
         );
+      
       case 8:
         return (
           <>
@@ -92,6 +93,17 @@ const DesignGuidelines = ({ currentPage }: DesignGuidelinesProps) => {
               <li>Terms summary table layout</li>
               <li>Timeline visualization</li>
               <li>Key dates arrangement</li>
+            </ul>
+          </>
+        );
+      case 9:
+        return (
+          <>
+            <h4 className="font-semibold mb-2">Partners Page Guidelines</h4>
+            <ul className="list-disc pl-4 space-y-1">
+              <li>Partner grid layout</li>
+              <li>Contact information placement</li>
+              <li>Social links styling</li>
             </ul>
           </>
         );
