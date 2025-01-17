@@ -57,31 +57,31 @@ const Pages = [
     </div>
   </div>,
 
-  // New Page: Our Edge - Unfair Advantage
-  <div key="unfair-advantage" className="space-y-8">
+  // Page 4: Our Edge - Unfair Advantage
+  <div key="4" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Unfair Advantage</h2>
-    <div className="space-y-4">
-      <h3 className="text-xl font-semibold text-brand-dark">Comprehensive Support System</h3>
-      <ul className="space-y-4 text-brand-dark">
-        <li>• Deep advisory network across Web3, AI & creative industries</li>
-        <li>• Hands-on incubation support from 0-10%</li>
-        <li>• Technical team for rapid prototyping & development</li>
-        <li>• Direct GTM strategies through established partnerships</li>
-      </ul>
-    </div>
-    <div className="space-y-4 mt-8">
-      <h3 className="text-xl font-semibold text-brand-dark">Networked Growth</h3>
-      <ul className="space-y-4 text-brand-dark">
-        <li>• Access to industry-leading advisors</li>
-        <li>• Strategic partnerships for rapid scaling</li>
-        <li>• Community-driven growth support</li>
-        <li>• Direct market access through partner network</li>
-      </ul>
+    <div className="grid grid-cols-2 gap-8">
+      <div className="space-y-4">
+        <h3 className="text-xl font-semibold text-brand-dark">Incubation Support</h3>
+        <ul className="space-y-2 text-brand-dark">
+          <li>• Hands-on support from 0-10%</li>
+          <li>• Technical team for rapid prototyping</li>
+          <li>• Direct GTM through partnerships</li>
+        </ul>
+      </div>
+      <div className="space-y-4">
+        <h3 className="text-xl font-semibold text-brand-dark">Advisory Network</h3>
+        <ul className="space-y-2 text-brand-dark">
+          <li>• Industry-leading advisors</li>
+          <li>• Strategic partnerships</li>
+          <li>• Community-driven growth</li>
+        </ul>
+      </div>
     </div>
   </div>,
 
-  // Page 4: Our Edge - Deal Capture
-  <div key="4" className="space-y-8">
+  // Page 5: Our Edge - Deal Capture
+  <div key="5" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Deal Capture</h2>
     <div className="space-y-4">
       <h3 className="text-xl font-semibold text-brand-dark">Global Deal Capture</h3>
@@ -94,8 +94,8 @@ const Pages = [
     </div>
   </div>,
 
-  // Page 5: Our Edge - Direct Access
-  <div key="5" className="space-y-8">
+  // Page 6: Our Edge - Direct Access
+  <div key="6" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Direct Technical Access</h2>
     <div className="space-y-4">
       <h3 className="text-xl font-semibold text-brand-dark">Technical Partnerships</h3>
@@ -108,8 +108,8 @@ const Pages = [
     </div>
   </div>,
 
-  // Page 6: Investment Focus
-  <div key="6" className="space-y-8">
+  // Page 7: Investment Focus
+  <div key="7" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Investment Focus</h2>
     <div className="grid grid-cols-2 gap-8">
       <div className="space-y-4">
@@ -133,8 +133,8 @@ const Pages = [
     </div>
   </div>,
 
-  // Page 7: Team
-  <div key="7" className="space-y-8">
+  // Page 8: Team
+  <div key="8" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Team</h2>
     <div className="grid grid-cols-3 gap-8">
       <div className="space-y-4">
@@ -161,7 +161,7 @@ const Pages = [
     </div>
   </div>,
 
-  // New Page: Advisory Team
+  // Page 9: Advisory Team
   <div key="advisory-team" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Advisory Team</h2>
     <div className="grid grid-cols-3 gap-8">
@@ -189,8 +189,8 @@ const Pages = [
     </div>
   </div>,
 
-  // Page 8: Fund Structure
-  <div key="8" className="space-y-8">
+  // Page 10: Fund Structure
+  <div key="10" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Fund Structure</h2>
     <div className="grid grid-cols-2 gap-8">
       <div className="space-y-4">
@@ -242,7 +242,7 @@ const Pages = [
     </div>
   </div>,
 
-  // Page 9: Partners
+  // Page 11: Partners
   <div key="partners" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Partners</h2>
     <div className="flex-1 space-y-12">
