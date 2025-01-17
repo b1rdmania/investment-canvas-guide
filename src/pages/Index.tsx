@@ -170,7 +170,7 @@ const Index = () => {
       onPrevPage={prevPage}
     >
       {Pages[currentPage - 1]}
-      <DesignGuidelines />
+      <DesignGuidelines currentPage={currentPage} />
     </PresentationLayout>
   );
 };
