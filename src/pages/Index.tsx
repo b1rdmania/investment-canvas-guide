@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import PresentationLayout from '../components/PresentationLayout';
-import DesignGuidelines from '../components/DesignGuidelines';
 import LogoPage from '../components/pages/LogoPage';
-import ExecutiveSummaryPage from '../components/pages/ExecutiveSummaryPage';
 import WhyNowPage from '../components/pages/WhyNowPage';
 import UnfairAdvantagePage from '../components/pages/UnfairAdvantagePage';
 import DealCapturePage from '../components/pages/DealCapturePage';
@@ -15,16 +13,15 @@ import PartnersPage from '../components/pages/PartnersPage';
 
 const Pages = [
   <LogoPage key="1" />,
-  <ExecutiveSummaryPage key="2" />,
-  <WhyNowPage key="3" />,
-  <UnfairAdvantagePage key="4" />,
-  <DealCapturePage key="5" />,
-  <TechnicalAccessPage key="6" />,
-  <InvestmentFocusPage key="7" />,
-  <TeamPage key="8" />,
-  <AdvisoryTeamPage key="9" />,
-  <FundStructurePage key="10" />,
-  <PartnersPage key="11" />
+  <WhyNowPage key="2" />,
+  <UnfairAdvantagePage key="3" />,
+  <DealCapturePage key="4" />,
+  <TechnicalAccessPage key="5" />,
+  <InvestmentFocusPage key="6" />,
+  <TeamPage key="7" />,
+  <AdvisoryTeamPage key="8" />,
+  <FundStructurePage key="9" />,
+  <PartnersPage key="10" />
 ];
 
 const Index = () => {
@@ -50,7 +47,6 @@ const Index = () => {
       onPrevPage={prevPage}
     >
       {Pages[currentPage - 1]}
-      <DesignGuidelines currentPage={currentPage} />
     </PresentationLayout>
   );
 };
