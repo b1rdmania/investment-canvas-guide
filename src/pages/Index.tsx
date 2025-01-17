@@ -147,11 +147,22 @@ const Pages = [
       </div>
       <div className="space-y-4">
         <h3 className="text-xl font-semibold text-brand-dark">Timeline</h3>
-        <ul className="space-y-2 text-brand-dark">
-          <li>• Q2 2024: First Close</li>
-          <li>• Q3 2024: Initial Deployment</li>
-          <li>• Q4 2024: Second Close</li>
-        </ul>
+        <table className="w-full text-brand-dark">
+          <tbody>
+            <tr className="border-b border-brand-cream">
+              <td className="py-2">Q2 2024</td>
+              <td className="py-2">First Close</td>
+            </tr>
+            <tr className="border-b border-brand-cream">
+              <td className="py-2">Q3 2024</td>
+              <td className="py-2">Initial Deployment</td>
+            </tr>
+            <tr>
+              <td className="py-2">Q4 2024</td>
+              <td className="py-2">Second Close</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
