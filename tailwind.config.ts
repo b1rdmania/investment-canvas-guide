@@ -22,13 +22,14 @@ export default {
           900: "#222222"
         },
         brand: {
-          cream: "#fcf9e6",
-          white: "#ffffff",
-          dark: "#292929",
-          black: "#000000",
+          cream: "#fcf9e6", // Primary color (R 252, G 248, B 230)
+          white: "#ffffff", // Primary color (R 255, G 255, B 255)
+          offwhite: "#eeeeee", // Off white
+          dark: "#333333", // Charcoal black
+          black: "#000000", // Jet black
           coral: {
-            light: "#ff8d76",
-            DEFAULT: "#f37f5a"
+            light: "#ff8d76", // Secondary accent (R 255, G 141, B 118)
+            DEFAULT: "#f37f5a" // Secondary accent (R 243, G 127, B 90)
           },
           blue: {
             light: "#5ca4f2",

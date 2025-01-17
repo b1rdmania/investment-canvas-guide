@@ -27,14 +27,14 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-brand-white text-brand-dark font-sans;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sans font-bold;
+    @apply font-sans font-bold text-brand-dark;
   }
 
   p, li, span {
-    @apply font-sans font-light;
+    @apply font-sans font-light text-brand-dark;
   }
 }
