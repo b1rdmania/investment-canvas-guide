@@ -4,11 +4,14 @@ import DesignGuidelines from '../components/DesignGuidelines';
 
 const Pages = [
   // Page 1: Executive Summary
-  <div key="1" className="space-y-8">
-    <h1 className="text-4xl font-bold text-mono-900">Acidic Labs Investment Deck</h1>
-    <h2 className="text-2xl text-mono-700">Executive Summary</h2>
-    <div className="text-xl text-mono-600">Vision Meets Capital</div>
-    <p className="text-mono-700 max-w-3xl">
+  <div key="1" className="space-y-8 flex flex-col items-center justify-center h-full">
+    <img 
+      src="/lovable-uploads/6d67b677-55c1-4b0a-9da7-366e17a84153.png" 
+      alt="Acidic Labs Logo" 
+      className="w-3/4 max-w-4xl mb-8"
+    />
+    <div className="text-2xl text-mono-600 text-center">Vision Meets Capital</div>
+    <p className="text-mono-700 max-w-3xl text-center mt-8">
       An incubator fund investing at the convergence of Web3, AI, and creative industries that creates unfair advantage through technology partnerships and advisory expertise.
     </p>
   </div>,
