@@ -27,10 +27,10 @@ const Pages = [
 
   // Page 3: Why Now
   <div key="3" className="space-y-8">
-    <h2 className="text-3xl font-bold text-mono-900">Why Now v1</h2>
+    <h2 className="text-3xl font-bold text-brand-dark">Why Now v1</h2>
     <div className="space-y-4">
-      <h3 className="text-2xl text-mono-700">The $2.25tn creative economy is at breaking point:</h3>
-      <ul className="space-y-4 text-mono-700">
+      <h3 className="text-2xl text-brand-dark">The $2.25tn creative economy is at breaking point:</h3>
+      <ul className="space-y-4 text-brand-dark">
         <li>• Current systems can't handle basic operations</li>
         <li>• AI driving 100x explosion in content creation</li>
         <li>• Even simple tech solutions revolutionary in this market</li>
@@ -41,10 +41,10 @@ const Pages = [
 
   // Page 4: Our Edge - Deal Capture
   <div key="4" className="space-y-8">
-    <h2 className="text-3xl font-bold text-mono-900">Our Edge: Deal Capture</h2>
+    <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Deal Capture</h2>
     <div className="space-y-4">
-      <h3 className="text-xl font-semibold text-mono-700">Global Deal Capture</h3>
-      <ul className="space-y-4 text-mono-600">
+      <h3 className="text-xl font-semibold text-brand-dark">Global Deal Capture</h3>
+      <ul className="space-y-4 text-brand-dark">
         <li>• Strategic event presence</li>
         <li>• Network of technical & ecosystem partners</li>
         <li>• Direct developer community relationships</li>
@@ -55,10 +55,10 @@ const Pages = [
 
   // Page 5: Our Edge - Direct Access
   <div key="5" className="space-y-8">
-    <h2 className="text-3xl font-bold text-mono-900">Our Edge: Direct Technical Access</h2>
+    <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Direct Technical Access</h2>
     <div className="space-y-4">
-      <h3 className="text-xl font-semibold text-mono-700">Technical Partnerships</h3>
-      <ul className="space-y-4 text-mono-600">
+      <h3 className="text-xl font-semibold text-brand-dark">Technical Partnerships</h3>
+      <ul className="space-y-4 text-brand-dark">
         <li>• Embedded relationships with major blockchain teams</li>
         <li>• Pre-public visibility of technical projects</li>
         <li>• First look at protocol innovations</li>
@@ -69,11 +69,11 @@ const Pages = [
 
   // Page 6: Investment Focus
   <div key="6" className="space-y-8">
-    <h2 className="text-3xl font-bold text-mono-900">Investment Focus</h2>
+    <h2 className="text-3xl font-bold text-brand-dark">Investment Focus</h2>
     <div className="grid grid-cols-2 gap-8">
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Key Metrics</h3>
-        <ul className="space-y-2 text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Key Metrics</h3>
+        <ul className="space-y-2 text-brand-dark">
           <li>• 50-80 companies at pre-seed stage</li>
           <li>• $50K-$200K initial checks</li>
           <li>• Investing period - extending to 2 or 3 years</li>
@@ -81,8 +81,8 @@ const Pages = [
         </ul>
       </div>
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Target Returns</h3>
-        <ul className="space-y-2 text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Target Returns</h3>
+        <ul className="space-y-2 text-brand-dark">
           <li>• 2% delivering 100x = $8M</li>
           <li>• 2% delivering 50x = $4M</li>
           <li>• 6% delivering 10x = $2.4M</li>
@@ -94,25 +94,25 @@ const Pages = [
 
   // Page 7: Team
   <div key="7" className="space-y-8">
-    <h2 className="text-3xl font-bold text-mono-900">Team</h2>
+    <h2 className="text-3xl font-bold text-brand-dark">Team</h2>
     <div className="grid grid-cols-3 gap-8">
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Andy</h3>
-        <ul className="space-y-2 text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Andy</h3>
+        <ul className="space-y-2 text-brand-dark">
           <li>• Direct L1/L2 development experience</li>
           <li>• Chain partnership relationships</li>
         </ul>
       </div>
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Leo</h3>
-        <ul className="space-y-2 text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Leo</h3>
+        <ul className="space-y-2 text-brand-dark">
           <li>• Fund operations background</li>
           <li>• Deal flow development</li>
         </ul>
       </div>
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Tim</h3>
-        <ul className="space-y-2 text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Tim</h3>
+        <ul className="space-y-2 text-brand-dark">
           <li>• Regulatory expertise</li>
           <li>• Music industry integration</li>
         </ul>
@@ -122,25 +122,25 @@ const Pages = [
 
   // Page 8: Fund Structure
   <div key="8" className="space-y-8">
-    <h2 className="text-3xl font-bold text-mono-900">Fund Structure</h2>
+    <h2 className="text-3xl font-bold text-brand-dark">Fund Structure</h2>
     <div className="grid grid-cols-2 gap-8">
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Terms</h3>
-        <table className="w-full text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Terms</h3>
+        <table className="w-full text-brand-dark">
           <tbody>
-            <tr className="border-b border-mono-200">
+            <tr className="border-b border-brand-cream">
               <td className="py-2">Size</td>
               <td className="py-2">$10M</td>
             </tr>
-            <tr className="border-b border-mono-200">
+            <tr className="border-b border-brand-cream">
               <td className="py-2">Period</td>
               <td className="py-2">2024-2029</td>
             </tr>
-            <tr className="border-b border-mono-200">
+            <tr className="border-b border-brand-cream">
               <td className="py-2">Management</td>
               <td className="py-2">2%</td>
             </tr>
-            <tr className="border-b border-mono-200">
+            <tr className="border-b border-brand-cream">
               <td className="py-2">Carry</td>
               <td className="py-2">20%</td>
             </tr>
@@ -152,8 +152,8 @@ const Pages = [
         </table>
       </div>
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-mono-700">Timeline</h3>
-        <ul className="space-y-2 text-mono-600">
+        <h3 className="text-xl font-semibold text-brand-dark">Timeline</h3>
+        <ul className="space-y-2 text-brand-dark">
           <li>• Q2 2024: First Close</li>
           <li>• Q3 2024: Initial Deployment</li>
           <li>• Q4 2024: Second Close</li>
