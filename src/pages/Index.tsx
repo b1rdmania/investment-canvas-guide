@@ -9,7 +9,7 @@ import InvestmentFocusPage from '../components/pages/InvestmentFocusPage';
 import TeamPage from '../components/pages/TeamPage';
 import AdvisoryTeamPage from '../components/pages/AdvisoryTeamPage';
 import FundStructurePage from '../components/pages/FundStructurePage';
-import PartnersPage from '../components/pages/PartnersPage';
+import NextStepsPage from '../components/pages/NextStepsPage';
 
 const Pages = [
   <LogoPage key="1" />,
@@ -21,7 +21,7 @@ const Pages = [
   <TeamPage key="7" />,
   <AdvisoryTeamPage key="8" />,
   <FundStructurePage key="9" />,
-  <PartnersPage key="10" />
+  <NextStepsPage key="10" />
 ];
 
 const Index = () => {
