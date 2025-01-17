@@ -93,7 +93,7 @@ const Pages = [
       <div className="space-y-4">
         <h3 className="text-xl font-semibold text-brand-dark">Andy</h3>
         <ul className="space-y-2 text-brand-dark">
-          <li>• Direct L1/L2 development experience</li>
+          <li>• Direct L1/L2 experience</li>
           <li>• Chain partnership relationships</li>
         </ul>
       </div>
