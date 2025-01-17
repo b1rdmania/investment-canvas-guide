@@ -8,6 +8,8 @@ export default {
     extend: {
       colors: {
         border: "hsl(var(--border))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
         mono: {
           100: "#F1F1F1",
           200: "#E1E1E1",
