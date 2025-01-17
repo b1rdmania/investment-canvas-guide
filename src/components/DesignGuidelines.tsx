@@ -12,9 +12,9 @@ const DesignGuidelines = ({ currentPage }: DesignGuidelinesProps) => {
           <>
             <h4 className="font-semibold mb-2">Opening Page Guidelines</h4>
             <ul className="list-disc pl-4 space-y-1">
-              <li>Large logo placement</li>
-              <li>Clean white background</li>
-              <li>Centered composition</li>
+              <li>Centered logo with optimized size</li>
+              <li>Clear tagline positioning</li>
+              <li>Balanced vertical spacing</li>
             </ul>
           </>
         );
@@ -23,9 +23,9 @@ const DesignGuidelines = ({ currentPage }: DesignGuidelinesProps) => {
           <>
             <h4 className="font-semibold mb-2">Executive Summary Guidelines</h4>
             <ul className="list-disc pl-4 space-y-1">
-              <li>Secondary logo placement</li>
-              <li>Vision statement positioning</li>
-              <li>Mission statement layout</li>
+              <li>Compact logo in header</li>
+              <li>Two-column layout for vision/mission</li>
+              <li>Consistent vertical rhythm</li>
             </ul>
           </>
         );
@@ -84,7 +84,6 @@ const DesignGuidelines = ({ currentPage }: DesignGuidelinesProps) => {
             </ul>
           </>
         );
-      
       case 8:
         return (
           <>
