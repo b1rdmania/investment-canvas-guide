@@ -14,14 +14,8 @@ const Pages = [
 
   // Page 2: Executive Summary
   <div key="2" className="space-y-8 flex flex-col items-center justify-center h-full">
-    <img 
-      src="/lovable-uploads/6d67b677-55c1-4b0a-9da7-366e17a84153.png" 
-      alt="Acidic Labs Logo" 
-      className="w-3/4 max-w-4xl mb-8"
-    />
-    <div className="text-2xl text-brand-dark font-light">Vision Meets Capital</div>
     <p className="text-brand-dark max-w-3xl text-center mt-8 font-light">
-      An incubator fund investing at the convergence of Web3, AI, and creative industries that creates unfair advantage through technology partnerships and advisory expertise.
+      Acidic Labs is an incubator fund investing at the convergence of Web3, AI, and creative industries that creates unfair advantage through technology partnerships and advisory expertise.
     </p>
   </div>,
 
