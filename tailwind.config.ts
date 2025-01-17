@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        border: "hsl(var(--border))",
         mono: {
           100: "#F1F1F1",
           200: "#E1E1E1",
