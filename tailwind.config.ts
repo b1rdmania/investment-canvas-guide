@@ -20,7 +20,24 @@ export default {
           700: "#403E43",
           800: "#333333",
           900: "#222222"
+        },
+        brand: {
+          cream: "#fcf9e6",
+          white: "#ffffff",
+          dark: "#292929",
+          black: "#000000",
+          coral: {
+            light: "#ff8d76",
+            DEFAULT: "#f37f5a"
+          },
+          blue: {
+            light: "#5ca4f2",
+            DEFAULT: "#035c8e"
+          }
         }
+      },
+      fontFamily: {
+        sans: ["Helvetica Neue", "sans-serif"],
       },
       spacing: {
         '128': '32rem',

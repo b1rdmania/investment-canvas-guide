@@ -4,7 +4,7 @@ import DesignGuidelines from '../components/DesignGuidelines';
 
 const Pages = [
   // Page 1: Logo Page
-  <div key="1" className="flex flex-col items-center justify-center h-full bg-white">
+  <div key="1" className="flex flex-col items-center justify-center h-full bg-brand-white">
     <img 
       src="/lovable-uploads/a8768ee1-3b39-4eaf-87b8-e6c89913763a.png" 
       alt="Acidic Labs Logo" 
@@ -19,8 +19,8 @@ const Pages = [
       alt="Acidic Labs Logo" 
       className="w-3/4 max-w-4xl mb-8"
     />
-    <div className="text-2xl text-mono-600 text-center">Vision Meets Capital</div>
-    <p className="text-mono-700 max-w-3xl text-center mt-8">
+    <div className="text-2xl text-brand-dark font-light">Vision Meets Capital</div>
+    <p className="text-brand-dark max-w-3xl text-center mt-8 font-light">
       An incubator fund investing at the convergence of Web3, AI, and creative industries that creates unfair advantage through technology partnerships and advisory expertise.
     </p>
   </div>,
