@@ -33,6 +33,29 @@ const Pages = [
     </div>
   </div>,
 
+  // New Page: Our Edge - Unfair Advantage
+  <div key="unfair-advantage" className="space-y-8">
+    <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Unfair Advantage</h2>
+    <div className="space-y-4">
+      <h3 className="text-xl font-semibold text-brand-dark">Comprehensive Support System</h3>
+      <ul className="space-y-4 text-brand-dark">
+        <li>• Deep advisory network across Web3, AI & creative industries</li>
+        <li>• Hands-on incubation support from 0-10%</li>
+        <li>• Technical team for rapid prototyping & development</li>
+        <li>• Direct GTM strategies through established partnerships</li>
+      </ul>
+    </div>
+    <div className="space-y-4 mt-8">
+      <h3 className="text-xl font-semibold text-brand-dark">Networked Growth</h3>
+      <ul className="space-y-4 text-brand-dark">
+        <li>• Access to industry-leading advisors</li>
+        <li>• Strategic partnerships for rapid scaling</li>
+        <li>• Community-driven growth support</li>
+        <li>• Direct market access through partner network</li>
+      </ul>
+    </div>
+  </div>,
+
   // Page 4: Our Edge - Deal Capture
   <div key="4" className="space-y-8">
     <h2 className="text-3xl font-bold text-brand-dark">Our Edge: Deal Capture</h2>
@@ -269,3 +292,4 @@ const Index = () => {
 };
 
 export default Index;
+
