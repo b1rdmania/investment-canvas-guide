@@ -30,21 +30,34 @@ const ProjectsPage = () => {
   ];
 
   return (
-    <div className="flex flex-col h-full w-full justify-center items-center px-8">
-      <div className="w-full max-w-6xl">
-        <h2 className="text-3xl font-bold mb-8">Current Investment Opportunities</h2>
+    <div className="flex flex-col h-full w-full p-6 overflow-auto">
+      <div className="max-w-2xl mx-auto w-full">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+          Current Investment Opportunities
+        </h2>
         
-        <div className="grid grid-cols-2 gap-8">
+        <div className="space-y-4">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow h-full">
-              <CardHeader>
-                <CardTitle className="text-xl font-semibold">{project.title}</CardTitle>
+            <Card 
+              key={index} 
+              className="bg-white shadow-md hover:shadow-lg transition-shadow border-l-4 border-l-brand-coral"
+            >
+              <CardHeader className="pb-2">
+                <CardTitle className="text-lg md:text-xl font-semibold">
+                  {project.title}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-mono-600 mb-4 text-left">{project.description}</p>
-                <div className="flex justify-between text-sm text-mono-500">
-                  <span>{project.sector}</span>
-                  <span>{project.stage}</span>
+                <p className="text-mono-600 mb-3 text-sm md:text-base">
+                  {project.description}
+                </p>
+                <div className="flex justify-between text-xs md:text-sm text-mono-500 pt-2 border-t border-mono-200">
+                  <span className="bg-mono-100 px-2 py-1 rounded">
+                    {project.sector}
+                  </span>
+                  <span className="bg-brand-coral-light bg-opacity-10 text-brand-coral px-2 py-1 rounded">
+                    {project.stage}
+                  </span>
                 </div>
               </CardContent>
             </Card>
