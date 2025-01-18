@@ -4,28 +4,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const ProjectsPage = () => {
   const projects = [
     {
-      title: "AI Infrastructure",
-      description: "Building next-generation computing infrastructure for AI model training and inference at scale.",
-      sector: "Technology",
+      title: "AI LLM Models",
+      description: "Developing cutting-edge large language models with advanced reasoning capabilities and specialized domain expertise for enterprise applications.",
+      sector: "Artificial Intelligence",
       stage: "Series A"
     },
     {
-      title: "Sustainable Manufacturing",
-      description: "Revolutionary manufacturing processes that reduce carbon footprint while maintaining high efficiency.",
-      sector: "Industrial",
+      title: "Film Royalties Project",
+      description: "Innovative platform for investing in film and entertainment royalties, providing steady returns through digital content monetization.",
+      sector: "Entertainment",
       stage: "Growth"
     },
     {
-      title: "Healthcare Analytics",
-      description: "Advanced analytics platform leveraging AI for predictive healthcare outcomes.",
-      sector: "Healthcare",
-      stage: "Series B"
+      title: "Quantum Computing Solutions",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      sector: "Technology",
+      stage: "Early Stage"
     },
     {
-      title: "Clean Energy Storage",
-      description: "Innovative energy storage solutions for renewable energy integration.",
-      sector: "Energy",
-      stage: "Early Stage"
+      title: "Biotech Innovations",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      sector: "Healthcare",
+      stage: "Seed"
     }
   ];
 
