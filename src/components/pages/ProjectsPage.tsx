@@ -31,10 +31,10 @@ const ProjectsPage = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-full">
-      <div className="max-w-2xl w-full space-y-8">
+      <div className="max-w-4xl w-full space-y-8">
         <h2 className="text-3xl font-bold text-center mb-8">Current Investment Opportunities</h2>
         
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardHeader>
