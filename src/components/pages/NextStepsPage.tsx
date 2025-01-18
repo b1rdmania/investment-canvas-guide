@@ -4,13 +4,13 @@ const NextStepsPage = () => (
   <div className="flex flex-col justify-center items-center h-full text-center space-y-12">
     <div className="max-w-2xl space-y-6">
       <div className="space-y-2">
-        <p className="text-2xl text-brand-dark">
+        <p className="text-2xl text-brand-dark italic">
           We see what others
         </p>
-        <p className="text-2xl text-brand-dark">
+        <p className="text-2xl text-brand-dark italic">
           Cannot - growing wealth through deals
         </p>
-        <p className="text-2xl text-brand-dark">
+        <p className="text-2xl text-brand-dark italic">
           That build and return
         </p>
       </div>
