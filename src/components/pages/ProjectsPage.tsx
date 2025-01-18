@@ -30,18 +30,18 @@ const ProjectsPage = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center h-full">
-      <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-3xl font-bold text-center mb-8">Current Investment Opportunities</h2>
+    <div className="flex flex-col h-full w-full justify-center items-center px-8">
+      <div className="w-full max-w-6xl">
+        <h2 className="text-3xl font-bold mb-8">Current Investment Opportunities</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow">
+            <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow h-full">
               <CardHeader>
                 <CardTitle className="text-xl font-semibold">{project.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-mono-600 mb-4">{project.description}</p>
+                <p className="text-mono-600 mb-4 text-left">{project.description}</p>
                 <div className="flex justify-between text-sm text-mono-500">
                   <span>{project.sector}</span>
                   <span>{project.stage}</span>
