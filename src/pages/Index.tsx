@@ -14,8 +14,8 @@ import NextStepsPage from '../components/pages/NextStepsPage';
 const Pages = [
   <LogoPage key="1" />,
   <WhyNowPage key="2" />,
-  <UnfairAdvantagePage key="3" />,
-  <DealCapturePage key="4" />,
+  <DealCapturePage key="3" />,
+  <UnfairAdvantagePage key="4" />,
   <TechnicalAccessPage key="5" />,
   <InvestmentFocusPage key="6" />,
   <TeamPage key="7" />,
