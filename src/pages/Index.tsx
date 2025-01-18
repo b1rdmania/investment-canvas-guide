@@ -5,6 +5,7 @@ import WhyNowPage from '../components/pages/WhyNowPage';
 import UnfairAdvantagePage from '../components/pages/UnfairAdvantagePage';
 import DealCapturePage from '../components/pages/DealCapturePage';
 import TechnicalAccessPage from '../components/pages/TechnicalAccessPage';
+import ProjectsPage from '../components/pages/ProjectsPage';
 import InvestmentFocusPage from '../components/pages/InvestmentFocusPage';
 import TeamPage from '../components/pages/TeamPage';
 import AdvisoryTeamPage from '../components/pages/AdvisoryTeamPage';
@@ -17,11 +18,12 @@ const Pages = [
   <DealCapturePage key="3" />,
   <UnfairAdvantagePage key="4" />,
   <TechnicalAccessPage key="5" />,
-  <InvestmentFocusPage key="6" />,
-  <TeamPage key="7" />,
-  <AdvisoryTeamPage key="8" />,
-  <FundStructurePage key="9" />,
-  <NextStepsPage key="10" />
+  <ProjectsPage key="6" />,
+  <InvestmentFocusPage key="7" />,
+  <TeamPage key="8" />,
+  <AdvisoryTeamPage key="9" />,
+  <FundStructurePage key="10" />,
+  <NextStepsPage key="11" />
 ];
 
 const Index = () => {
