@@ -11,6 +11,7 @@ import TeamPage from '../components/pages/TeamPage';
 import AdvisoryTeamPage from '../components/pages/AdvisoryTeamPage';
 import FundStructurePage from '../components/pages/FundStructurePage';
 import NextStepsPage from '../components/pages/NextStepsPage';
+import MarketSectorPage from '../components/pages/MarketSectorPage';
 
 const Pages = [
   <LogoPage key="1" />,
@@ -18,12 +19,13 @@ const Pages = [
   <DealCapturePage key="3" />,
   <UnfairAdvantagePage key="4" />,
   <TechnicalAccessPage key="5" />,
-  <ProjectsPage key="6" />,
-  <InvestmentFocusPage key="7" />,
-  <TeamPage key="8" />,
-  <AdvisoryTeamPage key="9" />,
-  <FundStructurePage key="10" />,
-  <NextStepsPage key="11" />
+  <MarketSectorPage key="6" />,
+  <ProjectsPage key="7" />,
+  <InvestmentFocusPage key="8" />,
+  <TeamPage key="9" />,
+  <AdvisoryTeamPage key="10" />,
+  <FundStructurePage key="11" />,
+  <NextStepsPage key="12" />
 ];
 
 const Index = () => {
