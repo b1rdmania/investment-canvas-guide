@@ -16,53 +16,27 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-mono-100">
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-24">
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <LogoPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <WhyNowPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <DealCapturePage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <UnfairAdvantagePage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <TechnicalAccessPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <MarketSectorPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <ProjectsPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <InvestmentFocusPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <TeamPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <AdvisoryTeamPage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <FundStructurePage />
-        </section>
-        
-        <section className="bg-white rounded-lg shadow-lg p-12">
-          <NextStepsPage />
-        </section>
+        {[
+          <LogoPage key="1" />,
+          <WhyNowPage key="2" />,
+          <DealCapturePage key="3" />,
+          <UnfairAdvantagePage key="4" />,
+          <TechnicalAccessPage key="5" />,
+          <MarketSectorPage key="6" />,
+          <ProjectsPage key="7" />,
+          <InvestmentFocusPage key="8" />,
+          <TeamPage key="9" />,
+          <AdvisoryTeamPage key="10" />,
+          <FundStructurePage key="11" />,
+          <NextStepsPage key="12" />
+        ].map((page, index) => (
+          <section 
+            key={index} 
+            className="bg-white rounded-lg shadow-lg p-12 min-h-[calc(100vh-4rem)] flex flex-col justify-center print:min-h-screen print:break-after-page print:break-inside-avoid print:shadow-none print:rounded-none"
+          >
+            {page}
+          </section>
+        ))}
       </div>
     </div>
   );
