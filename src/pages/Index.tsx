@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import PresentationLayout from '../components/PresentationLayout';
+import React from 'react';
 import LogoPage from '../components/pages/LogoPage';
 import WhyNowPage from '../components/pages/WhyNowPage';
 import UnfairAdvantagePage from '../components/pages/UnfairAdvantagePage';
@@ -13,45 +12,59 @@ import FundStructurePage from '../components/pages/FundStructurePage';
 import NextStepsPage from '../components/pages/NextStepsPage';
 import MarketSectorPage from '../components/pages/MarketSectorPage';
 
-const Pages = [
-  <LogoPage key="1" />,
-  <WhyNowPage key="2" />,
-  <DealCapturePage key="3" />,
-  <UnfairAdvantagePage key="4" />,
-  <TechnicalAccessPage key="5" />,
-  <MarketSectorPage key="6" />,
-  <ProjectsPage key="7" />,
-  <InvestmentFocusPage key="8" />,
-  <TeamPage key="9" />,
-  <AdvisoryTeamPage key="10" />,
-  <FundStructurePage key="11" />,
-  <NextStepsPage key="12" />
-];
-
 const Index = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const nextPage = () => {
-    if (currentPage < Pages.length) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
-  const prevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-
   return (
-    <PresentationLayout
-      currentPage={currentPage}
-      totalPages={Pages.length}
-      onNextPage={nextPage}
-      onPrevPage={prevPage}
-    >
-      {Pages[currentPage - 1]}
-    </PresentationLayout>
+    <div className="min-h-screen bg-mono-100">
+      <div className="max-w-7xl mx-auto px-4 py-8 space-y-24">
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <LogoPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <WhyNowPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <DealCapturePage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <UnfairAdvantagePage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <TechnicalAccessPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <MarketSectorPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <ProjectsPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <InvestmentFocusPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <TeamPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <AdvisoryTeamPage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <FundStructurePage />
+        </section>
+        
+        <section className="bg-white rounded-lg shadow-lg p-12">
+          <NextStepsPage />
+        </section>
+      </div>
+    </div>
   );
 };
 
